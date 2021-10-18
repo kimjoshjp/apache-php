@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kazu-apache-php
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kazu-app
+  template:
+    metadata:
+      labels:
+        app: kazu-app
+    spec:
+      containers:
+        - name: my-container
+          image: kazunorif/apache-php:1.1
+          ports:
+           - containerPort: 80
