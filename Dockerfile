@@ -10,4 +10,4 @@ COPY index.php /var/www/html/
 CMD /usr/sbin/apachectl -DFOREGROUND
 
 # For stopping apachectrl
-STOP SIGWINCH
+STOPSIGNAL SIGWINCH
