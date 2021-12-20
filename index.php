@@ -2,6 +2,6 @@
 <body>
   Your IP <?php echo $_SERVER['REMOTE_ADDR'] ?>
 <br>
-Welcome to Kubernetes!
+This app is running under kubernets in GCP.
 </body>
 </htlm>
