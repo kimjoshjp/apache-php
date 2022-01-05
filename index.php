@@ -2,6 +2,6 @@
 <body>
   Your IP <?php echo $_SERVER['REMOTE_ADDR'] ?>
 <br>
-This app is running under kubernets in GCP.
+Happy New Year 2022. This app is running under kubernets.
 </body>
 </htlm>
